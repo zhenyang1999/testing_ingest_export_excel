@@ -12,7 +12,7 @@ def main():
 
     if uploaded_file is not None:
         # Read Excel file into DataFrame
-        df = pd.read_excel(uploaded_file)
+        df = pd.read_excel("testing.xlsx")
 
         # Display uploaded data
         st.subheader("Uploaded Data:")
